@@ -1,0 +1,57 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+    <!--CSS야!-->
+    <style>
+      .js{
+        font-weight: bold;
+        color: yellow;
+      }
+      #first{
+        color: red;
+      }
+      span{
+        color: blue;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>WEB - Welcome ~ !</title>
+    <script src="colors.js"></script>
+  </head>
+  <body>
+    <h3><a href="index.html">WEB</a></h3>
+    <input id = "night_Day" type="button" value="night" onclick="nightDayHandler(this);">
+    <br><br>
+    <input type = "button" value = "hihi"
+    onclick = "alert('NoooOo!')">
+    <input type = "text" onchange = "alert('changed')">
+    <input type = "text" onkeydown = "alert('key down!')">
+    <br>
+    <script>
+      document.write(1+1);
+      var name = "sw.cho"
+      "안녕 나는 성우야!" + name + "반가워!"
+    </script>
+    <br>
+    <input type = "button" value = "name" onclick =
+    "alert('안녕 나는 성우야! ' + name + ' 반가워! 너두 '
+    + name + '의 모임에 들어오겠니??')">
+    <br><br>
+    <span style="font-weight:bold; color: black; background: orange;">
+      자바스크립트</span>
+      <p>
+      자바스크립트는 <span class="js">객체</span> 기반의
+      <span>스크립트</span> 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 <span class="js">객체</span>에도 접근할 수 있는 기능을 가지고 있다. 또한 <span id="first" class="js">Node.js</span>와 같은 런타임 환경과 같이 서버 사이드 네트워크 프로그래밍에도 사용되고 있다.
+    </p>
+    <p>
+      <script>
+        var coworker = ['foo', 'boo', 'qoo', 'soo'];
+        var i = 0;
+        while(i++ < coworker.length)
+        {
+          document.write('<li><a href="http://a.com/'+coworker[i]+'">'+coworker[i]+'</a></li>');
+        }
+      </script>
+    </p>
+  </body>
+</html>
